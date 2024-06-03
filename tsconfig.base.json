@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@nx-workspace/source": ["src/index.ts"]
+      "@nx-workspace/source": ["src/index.ts"],
+      "@nx-workspace/ui-shared": ["libs/ui-shared/src/index.ts"]
     }
   }
 }
