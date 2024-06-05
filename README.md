@@ -20,6 +20,11 @@ pnpx nx list @nx/react
 pnpx nx g @nx/react:application <app-name>
 ```
 
+### Generate component inside store app
+```bash
+pnpx nx g @nx/react:component <component-name> --project=store
+```
+
 ### Remove generated application
 
 ```bash
